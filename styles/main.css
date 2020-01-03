@@ -75,6 +75,8 @@ ul {
   background-image: url(../images/logo.png);
   background-position: center;
   background-size: cover; }
+  .logo--footer {
+    margin: 0 auto; }
 
 .nav {
   color: #fff;
@@ -213,6 +215,9 @@ ul {
 .section {
   margin-bottom: 152px; }
 
+.section:last-child {
+  margin-bottom: 88px; }
+
 .consultation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -268,8 +273,7 @@ ul {
   grid-template-columns: repeat(3, 240px);
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
-  justify-items: center; }
+          justify-content: space-between; }
 
 .card__img {
   margin: 0 auto;
@@ -307,7 +311,10 @@ ul {
       -ms-flex-pack: justify;
           justify-content: space-between; }
   .contact__element {
-    width: 413px; }
+    width: 413px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content; }
   .contact__heading {
     font-size: 24px;
     color: #0075ff;
@@ -373,6 +380,7 @@ ul {
   .flex-info__element {
     width: 152px; }
   .flex-info__span {
+    display: block;
     color: #9fadc2;
     line-height: 27px;
     font-size: 14px;
@@ -381,7 +389,13 @@ ul {
     font-size: 16px;
     line-height: 27px;
     color: #3e3e3e; }
-  .flex-info__p:nth-child(1) {
+  .flex-info__p:first-of-type {
     margin-bottom: 24px; }
+
+.footer {
+  background-image: url(../images/footer.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 243px 0 40px; }
 
 /*# sourceMappingURL=main.css.map */
