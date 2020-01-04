@@ -19,6 +19,9 @@ ul {
   list-style-type: none;
   padding: 0; }
 
+input.togglerMenu {
+  display: none; }
+
 .header {
   background-image: url(../images/header.jpg);
   background-position: center;
@@ -43,6 +46,10 @@ ul {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #fff; }
+  .header__phone-icon {
+    display: none; }
+  .header__hamburg-icon {
+    display: none; }
   .header__link {
     text-decoration: none;
     color: #fff;
@@ -446,6 +453,10 @@ ul {
     margin-bottom: 30px; }
   .header__top {
     margin-bottom: 317px; }
+  .header__phone-icon {
+    display: inline-block; }
+  .header__hamburg-icon {
+    display: inline-block; }
   .header__phone {
     display: none; }
   .header__action {
