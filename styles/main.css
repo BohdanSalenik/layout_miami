@@ -21,12 +21,15 @@
     margin-left: 21px;
     margin-bottom: 32px; }
     .mobile-nav__item:last-of-type {
+      margin-top: 48px;
       margin-bottom: 18px; }
   .mobile-nav__link {
     color: #fff;
     text-transform: uppercase;
     font-size: 22px;
     line-height: 22px; }
+  .mobile-nav__link[href="tel:+380731563436"] {
+    font-size: 12px; }
   .mobile-nav__action {
     margin-left: 21px; }
     .mobile-nav__action-link {
