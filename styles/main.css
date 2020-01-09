@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth; }
+
 .mobile-nav {
   background-color: #0075ff;
   position: absolute;
