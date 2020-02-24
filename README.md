@@ -1,3 +1,2 @@
 # layout_miami
-Landing Miami
-[DEMO LINK](https://bohdansalenik.github.io/layout_miami/)
+[Landing Miami](https://bohdansalenik.github.io/layout_miami/)
